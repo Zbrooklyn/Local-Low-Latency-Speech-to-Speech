@@ -1,0 +1,7 @@
+look up latency free stt
+
+look up ollama alternative
+
+use faster wisper 
+
+then use web api
