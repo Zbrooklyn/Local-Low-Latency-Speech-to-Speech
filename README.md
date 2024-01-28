@@ -1,12 +1,23 @@
 LOCAL LOW LATENCY SPEECH TO SPEECH
 
+# Linux
+
+Start With
+```
+Sudo apt-get update && Sudo apt-get upgrade
+```
+
+# Windows WSL
+
+# Continue Here
+
 1. clone the ripository 
 ```
-git clone https://github.com/All-About-AI-YouTube/low-latency-sts.git
+git clone https://github.com/Zbrooklyn/Local-Low-Latency-Speech-to-Speech.git
 ```
 2. cd into folder
 ```
-cd low-latency-sts
+cd Local-Low-Latency-Speech-to-Speech
 ```
 3. Run these 4 comands.
 ```
