@@ -19,6 +19,14 @@ git clone https://github.com/Zbrooklyn/Local-Low-Latency-Speech-to-Speech.git
 ```
 cd Local-Low-Latency-Speech-to-Speech
 ```
+
+3. Install Reqirements
+```
+pip install -r requirements.txt
+```
+
+
+
 3. Run these 4 comands.
 ```
 conda create -n openvoice python=3.9
@@ -50,3 +58,28 @@ python .\talk.py
 python .\voice69.py
 ```
 
+# Using LM Studio
+7. Install LM Studio (https://lmstudio.ai/) 
+8. Download Bloke Dolphin Mistral 7B V2 (https://huggingface.co/TheBloke/dolphin-2.2.1-mistral-7B-AWQ) in LM Studio
+9. Setup Local Server in LM Studio (https://youtu.be/IgcBuXFE6QE)
+
+# Using Ollama
+install curl
+```
+sudo apt-get install curl
+```
+
+install Ollama
+```
+curl https://ollama.ai/install.sh | sh
+```
+
+Start Server
+```
+ollama serve
+```
+
+Test Ollama
+```
+ollama run mistral
+```
