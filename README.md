@@ -4,7 +4,7 @@ LOCAL LOW LATENCY SPEECH TO SPEECH
 
 Start With
 ```
-Sudo apt-get update && Sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade
 ```
 install git
 ```
@@ -15,7 +15,10 @@ sudo apt install git -y
 
 # Continue Here
 
-1. clone the ripository 
+1. clone the ripository
+```
+cd Downloads
+```
 ```
 git clone https://github.com/Zbrooklyn/Local-Low-Latency-Speech-to-Speech.git
 ```
@@ -23,7 +26,50 @@ git clone https://github.com/Zbrooklyn/Local-Low-Latency-Speech-to-Speech.git
 ```
 cd Local-Low-Latency-Speech-to-Speech
 ```
+-----------------------------------
 
+Install Python Virtual Environment Package (if not already installed):
+
+```
+sudo apt install python3-venv
+```
+Create a Virtual Environment:
+
+
+```
+python3 -m venv venv
+```
+This command creates a new virtual environment named venv in your current directory.
+
+Activate the Virtual Environment:
+
+
+```
+source venv/bin/activate
+```
+Your command prompt should change to indicate that the virtual environment is activated.
+
+Install Requirements in the Virtual Environment:
+Now, install the required packages with pip:
+
+
+```
+pip install -r requirements.txt
+```
+Proceed with Your Work:
+
+
+-------------------------
+```
+pip install torch
+```
+```
+
+```
+
+```
+
+```
 install pip
 ```
 sudo apt install python3-pip -y
