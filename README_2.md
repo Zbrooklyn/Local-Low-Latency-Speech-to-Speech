@@ -6,6 +6,9 @@
 ```
 sudo apt-get update && sudo apt-get upgrade
 ```
+```
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
 
 ```
 conda create -n openvoice python=3.9
