@@ -3,6 +3,36 @@
 ----------------------------------
 # ubuntu
 
+```
+sudo apt-get update && sudo apt-get upgrade
+```
+
+```
+conda create -n openvoice python=3.9
+```
+```
+conda activate openvoice
+```
+```
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+```
+```
+cd Downloads
+```
+```
+sudo apt install git -y
+```
+```
+git clone https://github.com/Zbrooklyn/Local-Low-Latency-Speech-to-Speech.git
+```
+```
+cd Local-Low-Latency-Speech-to-Speech
+```
+```
+pip install -r requirements.txt
+```
+
+
 ----------------------------------
 part 2
 
