@@ -8,7 +8,7 @@ Sudo apt-get update && Sudo apt-get upgrade
 ```
 install git
 ```
-sudo apt install git
+sudo apt install git -y
 ```
 
 # Windows WSL
@@ -26,7 +26,7 @@ cd Local-Low-Latency-Speech-to-Speech
 
 install pip
 ```
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 ```
 
 3. Install Reqirements
