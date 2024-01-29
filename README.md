@@ -6,6 +6,10 @@ Start With
 ```
 Sudo apt-get update && Sudo apt-get upgrade
 ```
+install git
+```
+sudo apt install git
+```
 
 # Windows WSL
 
