@@ -24,6 +24,11 @@ git clone https://github.com/Zbrooklyn/Local-Low-Latency-Speech-to-Speech.git
 cd Local-Low-Latency-Speech-to-Speech
 ```
 
+install pip
+```
+sudo apt install python3-pip
+```
+
 3. Install Reqirements
 ```
 pip install -r requirements.txt
