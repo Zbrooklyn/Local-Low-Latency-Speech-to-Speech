@@ -15,4 +15,5 @@ LOCAL LOW LATENCY SPEECH TO SPEECH
 9. Setup Local Server in LM Studio (https://youtu.be/IgcBuXFE6QE)
 10. Start Server
 11. Get a reference voice in PATH / PATHS (mp3) - Line 204
-12. RUN talk.py or voice69.py
+12. RUN talk-cpu.py
+
