@@ -1,7 +1,7 @@
 LOCAL LOW LATENCY SPEECH TO SPEECH
 
-1. git clone https://github.com/All-About-AI-YouTube/low-latency-sts.git
-2. cd low-latency-sts
+1. git clone https://github.com/Zbrooklyn/Local-Low-Latency-Speech-to-Speech.git
+2. cd Local-Low-Latency-Speech-to-Speech
 3. run:
 - conda create -n openvoice python=3.9
 - conda activate openvoice
